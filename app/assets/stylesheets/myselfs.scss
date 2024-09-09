@@ -1,0 +1,121 @@
+// Place all the styles related to the myselfs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+* {
+  padding: 0;
+  margin: 0;
+}
+.page1 {
+  background-color: #C6A4C0;
+  height: 100px;
+  font-weight: bold;
+  display: flex;
+  justify-content: 'Kosugi Maru', sans-serif;
+  align-items: center;
+}
+p {
+  font-size: 30px;
+  font-family: 'Kosugi Maru', sans-serif;
+  color: black;
+}
+
+body {
+/*   First block   */
+.box1 {
+  background-color: #F6EFF3; 
+  height: 70px;
+}
+.box2 {
+  background-color: #C6A4C0; 
+  height: 20px;
+}
+#myself-block {
+  background-color: #F6EFF3;
+  width: 100%;
+  height: 440px;
+}
+.myself-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+.main-image {
+  border: solid 5px #C6A4C0; 
+  width: 100%;
+  height: 330px
+}
+h4 {
+  font-size: 30px;
+  font-family: 'Kosugi Maru', sans-serif;
+  color: #000000;
+  margin-left: 20px;
+}
+h1 {
+  font-size: 80px;
+  font-family: 'Kosugi Maru', sans-serif;
+  color: #000000;
+}
+h5 {
+  font-size: 30px;
+  font-family: 'Kosugi Maru', sans-serif;
+  color: #000000;
+}
+
+/*   First block end  */
+
+/*   second block   */
+#past-block{
+  background-color: #F6EFF3;
+  width: 100%;
+  height: 2500px;
+}
+.title{
+  margin-left: 50px;
+}
+.past{
+  display: flex;
+  justify-content: flex-start ;
+  flex-direction: row;
+  align-items: center;
+}
+.baby{
+  display: flex;
+  justify-content: flex-start ;
+  flex-direction: row;
+  align-items: center;
+  margin:20px, 40px, 40px, 20px;
+  height: 300px;
+  width: 100%;
+}
+h2 {
+  font-size: 50px;
+  font-family: 'Kosugi Maru', sans-serif;
+  color: black;
+}
+
+.baby-image {
+  height: auto;
+  position: absolute;
+  width: 100%;
+  border-radius:10px 10px 10px 10px;
+  border: solid 5px #C6A4C0; 
+}
+.baby-item {
+  cursor: pointer;
+  height: 230px;
+  position: relative;
+  width: 230px;
+  margin-left: 50px;
+}
+.baby1-item{
+  margin-left: 50px;
+}
+.baby-item img:last-of-type{
+  opacity: 0;
+  transition: opacity .7s;
+}
+.baby-item:hover img {
+  opacity: 1;
+}
+}

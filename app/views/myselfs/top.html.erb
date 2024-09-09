@@ -1,0 +1,131 @@
+<! DOCTYPE HTML >
+<html lang="ja">
+
+<header class="page1">
+  <p>自己紹介</p>
+</header>
+
+
+<body>
+<!--   First block Start   -->
+<div class="box1">  </div>
+<section id="myself-block">
+    <div class="myself-container">
+      <div class="myself-item">
+        <h4>やまの ちひろ</h4>
+        <h1>山野千尋</h1>
+        <h2>生年月日   2001年8月12日</h2>
+        <h2>  出身     北海道・札幌市</h2>
+        <h2>  趣味     お菓子作り・推し活</h2>
+        <div class="button">
+          <%= link_to 'お菓子作り', :controller => "okasi", :action => "cooking" %>
+          <%= link_to '推し活', :controller => "osikatsu", :action => "kpop" %>
+        </div>
+      </div>
+      <div class="image-item">
+        <%= image_tag 'main.jpg', class:"main-image" %>
+      </div>
+      <div class="image2-item">
+        <%= image_tag 'main2.jpg', class:"main-image" %>
+      </div>
+      <div class="image3-item">
+        <%= image_tag 'main3.jpg', class:"main-image" %>
+      </div>
+    </div>
+</section> 
+<div class="box2">  </div>
+<!--   First block End   -->
+
+<!--   second block Start   -->
+<section id="past-block">
+<h4>～生い立ち～</h4>
+<div class="title">
+  <h2>・赤ちゃん</h2>
+</div>
+<div class="baby">
+  <div class="baby-item">
+    <%= image_tag 'baby1.png', class:"baby-image" %>
+    <%= image_tag 'baby2.jpg', class:"baby-image" %>
+  </div>
+  <div class="baby1-item">
+    <h2>2001年8月12日</h2>
+    <h2>2840gで生まれました。</h2>
+  </div>
+</div>
+<div class="box1">  </div>
+<div class="title">
+  <h2>・保育園児</h2>
+</div>
+<div class="baby">
+  <div class="baby-item">
+    <%= image_tag 'hoikuen1.png', class:"baby-image" %>
+    <%= image_tag 'hoikuen2.jpg', class:"baby-image" %>
+  </div>
+  <div class="baby1-item">
+    <h2>3歳からバレエを習いました。（～12歳）</h2>
+    <h2>発表会でかわいい衣装を着るために、頑張って練習していました。</h2>
+  </div>
+</div>
+<div class="box1">  </div>
+<div class="title">
+  <h2>・小学生</h2>
+</div>
+<div class="baby">
+  <div class="baby-item">
+    <%= image_tag 'syougaku1.png', class:"baby-image" %>
+    <%= image_tag 'syougaku2.jpg', class:"baby-image" %>
+  </div>
+  <div class="baby1-item">
+    <h2>4年生から中学受験の勉強を始めました。</h2>
+    <h2>毎週土曜日は塾で８時間勉強していました。</h2>
+    <h2>算数と理科が得意で、この時から理系でした。</h2>
+  </div>
+</div>
+<div class="box1">  </div>
+<div class="title">
+  <h2>・中学生</h2>
+</div>
+<div class="baby">
+  <div class="baby-item">
+    <%= image_tag 'cyuugaku1.png', class:"baby-image" %>
+    <%= image_tag 'cyuugaku2.jpg', class:"baby-image" %>
+  </div>
+  <div class="baby1-item">
+    <h2>無事に第一志望の中学へ進学しました。</h2>
+    <h2>部活はバドミントン部に入りました。（～高校3年生）</h2>
+    <h2>3週間のニュージーランド研修へ行きました。</h2>
+  </div>
+</div>
+<div class="box1">  </div>
+<div class="title">
+  <h2>・高校生</h2>
+</div>
+<div class="baby">
+  <div class="baby-item">
+    <%= image_tag 'koukou1.png', class:"baby-image" %>
+    <%= image_tag 'koukou2.jpg', class:"baby-image" %>
+  </div>
+  <div class="baby1-item">
+    <h2>韓国とロシアへ交換留学に行きました。</h2>
+    <h2>ロシアのサンクトペテルブルクはとてもきれいな町でした。</h2>
+    <h2>ロシアに行けたことはとても貴重な経験となりました。</h2>
+  </div>
+</div>
+<div class="box1">  </div>
+<div class="title">
+  <h2>・大学生</h2>
+</div>
+<div class="baby">
+  <div class="baby-item">
+    <%= image_tag 'daigaku1.png', class:"baby-image" %>
+    <%= image_tag 'daigaku2.jpg', class:"baby-image" %>
+  </div>
+  <div class="baby1-item">
+    <h2>立命館大学 生命科学部へ進学しました。</h2>
+    <h2>一生懸命勉強し、GPA4.0の成績を取りました。</h2>
+    <h2>酢酸菌という微生物を研究しています。</h2>
+  </div>
+</div>
+<div class="box1">  </div>
+<div class="box2">  </div>
+</html>

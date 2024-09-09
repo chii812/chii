@@ -1,0 +1,216 @@
+// Place all the styles related to the osikatsu controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+* {
+    padding: 0;
+    margin: 0;
+}
+.page3 {
+    background-color: #90A4BE;
+    height: 100px;
+    font-weight: bold;
+    display: flex;
+    justify-content: 'Kosugi Maru', sans-serif;
+    align-items: center;
+}
+p {
+    font-size: 30px;
+    font-family: 'Kosugi Maru', sans-serif;
+    color: black;
+}
+/*   First block   */
+.box5 {
+    background-color: #D7DBED; 
+    height: 20px;
+}
+.box4 {
+    background-color:#D7DBED ; 
+    height: 50px;
+}
+h2 {
+    font-size: 30px;
+    font-family: 'Kosugi Maru', sans-serif;
+    color: #000000;
+}
+#setsumei1-block {
+    background-color: #D7DBED;
+    width: 100%;
+    height: 177px;
+}
+.setsumei1-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.irasuto1-image {
+    width: 100%;
+    height: 150px
+}
+/*   First block end  */
+
+.box6 {
+    background-color: #90A4BE; 
+    height: 20px;
+}
+#osikatsu-block {
+    background-color: #D7DBED;
+    width: 100%;
+    height: 3550px;
+}
+.i-logo-image {
+    border-radius: 50%;
+    position: absolute;
+    top: 2700px; 
+    margin-left: 20px;
+    width: 160px;
+    height: 90px
+}
+.idol-image {
+    border: solid 5px #C33131; 
+    width: 180px;
+    height: 180px
+}
+.idol {
+    height: 230px;
+    background-color: #F1B3B3; 
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 20px;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+.box7 {
+    background-color:#D7DBED; 
+    height: 50px;
+}
+.osikatsu-review{
+    margin-left: 200px;
+    padding: 10px;
+    border: 5px solid #000;
+    width: 70%;
+    height: 800px
+    accent-color#000
+}
+h6 {
+    border-bottom:solid;
+    border-color:#848484;
+    font-size: 30px;
+    font-family: "Hachi Maru Pop", cursive;
+    color: #000000;
+}
+.live-review-image{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+.live-image{
+    border: solid 7px #C33131;
+    width: 250px;
+    height: 250px
+}
+.osikatsu-review{
+    background-color:#F8DDDD; 
+}
+.box8 {
+    background-color: #F8DDDD; 
+    height: 20px;
+}
+.a-logo-image {
+    border-radius: 50%;
+    position: absolute;
+    top: 310px; 
+    margin-left: 20px;
+    width: 160px;
+    height: 90px
+}
+.a-idol {
+    height: 230px;
+    background-color: #BF9ED1; 
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 20px;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+.a-idol-image {
+    border: solid 5px #7401DF; 
+    width: 180px;
+    height: 180px
+}
+.a-osikatsu-review{
+    background-color:#EBDAF4; 
+}
+.box9 {
+    background-color: #EBDAF4; 
+    height: 20px;
+}
+.a-live-image{
+    border: solid 7px #7401DF; 
+    width: 250px;
+    height: 250px
+}
+.a-osikatsu-review{
+    margin-left: 200px;
+    padding: 10px;
+    border: 5px solid #000;
+    width: 70%;
+    height: 800px
+    accent-color#000
+}
+.n-logo-image {
+    border-radius: 50%;
+    position: absolute;
+    top: 1500px; 
+    margin-left: 20px;
+    width: 160px;
+    height: 90px
+}
+.n-idol {
+    height: 230px;
+    background-color: #F0C2AF; 
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 20px;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+.n-idol-image {
+    border: solid 5px #D35015; 
+    width: 180px;
+    height: 180px
+}
+.n-osikatsu-review{
+    background-color:#F6D8CE; 
+}
+.box10 {
+    background-color: #F6D8CE; 
+    height: 20px;
+}
+.n-live-image{
+    border: solid 7px #D35015; 
+    width: 250px;
+    height: 250px
+}
+.n-osikatsu-review{
+    margin-left: 200px;
+    padding: 10px;
+    border: 5px solid #000;
+    width: 70%;
+    height: 800px
+    accent-color#000
+}
+.live-review{
+    margin-left: 40px;
+    margin-right: 40px;
+}
