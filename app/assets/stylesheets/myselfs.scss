@@ -61,7 +61,46 @@ h5 {
   font-family: 'Kosugi Maru', sans-serif;
   color: #000000;
 }
-
+.button{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+.button1 {
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	width: 120px;
+	margin: auto;
+  padding: 1rem 1rem;
+	font-weight: bold;
+	border: 2px solid #C6A4C0;
+	color: #C6A4C0;
+	transition: 0.5s;
+}
+.button1:hover {
+	color: #fff;
+	background: #C6A4C0;
+}
+.button2 {
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	width: 120px;
+	margin: auto;
+  padding: 1rem 1rem;
+	font-weight: bold;
+	border: 2px solid #C6A4C0;
+	color: #C6A4C0;
+	transition: 0.5s;
+}
+.button2:hover {
+	color: #fff;
+	background: #C6A4C0;
+}
 /*   First block end  */
 
 /*   second block   */

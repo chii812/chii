@@ -18,8 +18,8 @@
         <h2>  出身     北海道・札幌市</h2>
         <h2>  趣味     お菓子作り・推し活</h2>
         <div class="button">
-          <%= link_to 'お菓子作り', :controller => "okasi", :action => "cooking" %>
-          <%= link_to '推し活', :controller => "osikatsu", :action => "kpop" %>
+          <%= link_to 'お菓子作り', { :controller => "okasi", :action => "cooking" }, class: "button1" %>
+          <%= link_to '推し活', { :controller => "osikatsu", :action => "kpop" }, class: "button2" %>
         </div>
       </div>
       <div class="image-item">
